@@ -7,8 +7,7 @@
 var runningSum = function(nums) {
     let sumArray = [nums[0]];
     for (let i = 1; i < nums.length; i++) {
-        sum = sumArray[i - 1] + nums[i]
-        sumArray[i] = sum;
+        sumArray[i] = sumArray[i - 1] + nums[i]
     }
     return sumArray;
 };
