@@ -12,7 +12,4 @@ var runningSum = function(nums) {
     return sumArray;
 };
 
-// Test Cases
-console.log(runningSum([1,2,3,4])); // Expected results [ 1, 2, 6, 10 ]
-console.log(runningSum([1,1,1,1,1])); // Expected results [ 1, 2, 3, 4, 5 ]
-console.log(runningSum([3,1,2,10,1])); // Expected results [ 3, 4, 6, 16, 17 ]
+module.exports = runningSum;
